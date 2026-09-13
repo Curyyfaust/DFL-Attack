@@ -1,0 +1,15 @@
+{
+  "concept_net_load_MAE": 0.0022118358855605833,
+  "concept_network_MAE": 0.000239939956861182,
+  "concept_ramp_MAE": 0.00162541746658652,
+  "sensitivity_MAE": 0.15556640625049237,
+  "sensitivity_cosine_similarity": 0.9980566703399402,
+  "sensitivity_sign_accuracy": 1.0,
+  "offline_OPF_labeled_intervals": 3488,
+  "online_OPF_solves_CB_SPGA": 0,
+  "concept_hourly_ranges": {
+    "net_load": 0.2514034086127663,
+    "network": 0.01915117843589284,
+    "ramp": 0.007378108524900121
+  }
+}
