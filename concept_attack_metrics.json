@@ -1,0 +1,10 @@
+{
+  "epsilon": 0.02,
+  "network_surrogate_validation_R2": 0.9887664946222732,
+  "concept_standard_deviations": {
+    "Net-load": 0.07723975180029811,
+    "Network": 0.006060435467053193,
+    "Ramping": 0.004112474583617932
+  },
+  "concept_attack_definition": "economic-plus-target direction projected onto the local off-target concept null space"
+}

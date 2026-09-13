@@ -1,0 +1,23 @@
+\begin{table}[t]
+\caption{Concept Attacks Under a 2\% Perturbation Budget}
+\label{tab:concept_attack}
+\centering
+\footnotesize
+\renewcommand{\arraystretch}{1.05}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{lrrrrr}
+\toprule
+Method & $\Delta$MSE (\%) & $\Delta$Cost (\%)
+& $\Delta c^{\mathrm{net}}$ & $\Delta c^{\mathrm{grid}}$
+& $\Delta c^{\mathrm{ramp}}$ \\
+\midrule
+FGSM    & 18.107 & -0.068 & -0.005 & -0.009 & 0.007 \\
+PGD     & 18.367 & -0.096 & -0.006 & -0.008 & 0.008 \\
+CB-SPGA &  6.778 &  2.175 &  0.098 &  0.026 & -0.017 \\
+Net-CA  &  1.995 &  0.430 & \textbf{0.019} & 0.001 & 0.002 \\
+Grid-CA &  0.797 & -0.143 & -0.005 & \textbf{0.010} & -0.008 \\
+Ramp-CA & -0.380 &  0.019 &  0.001 & 0.001 & \textbf{0.222} \\
+\bottomrule
+\end{tabular}%
+}
+\end{table}
